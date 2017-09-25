@@ -9,7 +9,7 @@ import javax.swing.*;
 public class Omkrets_area{
 	public static void main(String[] args) {
 		
-		String radie = JOptionPane.showInputDialog("Test");
+		String radie = JOptionPane.showInputDialog(null, "Radien Tack");
 		
 		double radie1 = Double.parseDouble(radie);
 		double pi = 3.1415926536;
@@ -17,6 +17,6 @@ public class Omkrets_area{
 		double omkrets = (2 * pi) * radie1;
 
 
-		JOptionPane.showMessageDialog(null, area);
+		JOptionPane.showMessageDialog(null, omkrets + "\n" + area);
 	}
 }
